@@ -10,3 +10,4 @@ describe 'Currency' do
     expect(res != 0 || amount == 0).to eql(true) # verifica se nao é zero quando a quantidade nao é zero.
   end
 end
+
