@@ -2,11 +2,12 @@
  
     .card{
       border: 0;
+      border-radius: 11px;
    
       .card-header{
         /*background-color: #878d99;*/
         background-color: #2c3136;
-        border-radius: 0;
+        border-radius: 10px;
         color: white;
         font-weight: 700;
       }
@@ -25,10 +26,14 @@
           background-color: #343a40;
           border-color: #5bc0de;
           border-radius: 0;
+         
+        }
+         /* .bnt {
+            background-image:url("/trocamoeda.png");
+            }*/
         }
       }
     }
-  }
    
   @media only screen and (max-width : 992px) {
     .card-header {
@@ -60,5 +65,10 @@
     .btn-exchange {
       font-size: 20px;
     }
-  }
+    
+   }
+    /*.bnt {
+      background-image:url("/trocamoeda.png");
+      }*/
+
   
